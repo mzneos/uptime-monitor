@@ -1,3 +1,7 @@
 module.exports = {
-    "extends": "airbnb-base"
-}
+    "extends": "airbnb-base",
+    "rules": {
+        // Indent with 4 spaces
+    "indent": ["error", 4]
+    }
+};

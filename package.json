@@ -9,6 +9,7 @@
     "eslint": "^5.15.3",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
-    "https": "^1.0.0"
+    "https": "^1.0.0",
+    "pg": "^7.9.0"
   }
 }

@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  timescaledb:
+    container_name: uptime_monitor_timescaledb
+    image: timescale/timescaledb:latest
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - '127.0.0.1:5432:5432'
+    volumes:
+      - ./lib/database/initDatabase.sql:/docker-entrypoint-initdb.d/initDatabase.sql

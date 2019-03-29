@@ -15,8 +15,7 @@ CREATE TABLE metrics (
     ttfb                INT         NULL,
     transfert_time      INT         NULL,
     total_time          INT         NULL,
-    status_code         SMALLINT    NULL,
-    available           BOOL        NULL
+    status_code         SMALLINT    NULL
 );
 
 -- Create hypertable for metrics table

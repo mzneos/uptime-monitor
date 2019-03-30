@@ -19,7 +19,16 @@ CREATE TABLE metrics (
 );
 
 -- Create hypertable for metrics table
-SELECT create_hyptertable('metrics', 'time');
+SELECT create_hypertable('metrics', 'time');
 
 -- Create index for the metrics table
 CREATE INDEX ON metrics (host, time DESC);
+
+CREATE TABLE alerts (
+    time            TIMESTAMPTZ     NOT NULL,
+    host            TEXT            NOT NULL,
+    state           TEXT            NOT NULL,
+    availability    NUMERIC(4, 3)   NOT NULL
+);
+
+SELECT create_hypertable('alerts', 'time');

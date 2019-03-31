@@ -12,6 +12,7 @@
     "eslint-plugin-import": "^2.16.0",
     "https": "^1.0.0",
     "humanize-duration": "^3.18.0",
+    "moment": "^2.24.0",
     "pg-promise": "^8.6.4"
   }
 }

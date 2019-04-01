@@ -15,6 +15,7 @@
     "humanize-duration": "^3.18.0",
     "moment": "^2.24.0",
     "pg-promise": "^8.6.4",
+    "simple-node-logger": "^18.12.22",
     "table": "^5.2.3",
     "yargs": "^13.2.2"
   }

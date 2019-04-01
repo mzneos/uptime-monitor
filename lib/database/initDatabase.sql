@@ -13,7 +13,7 @@ CREATE TABLE metrics (
     tcp_connection_time INT         NULL,
     tls_handshake_time  INT         NULL,
     ttfb                INT         NULL,
-    transfert_time      INT         NULL,
+    transfer_time       INT         NULL,
     total_time          INT         NULL,
     status_code         SMALLINT    NULL
 );

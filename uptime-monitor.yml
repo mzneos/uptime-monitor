@@ -1,0 +1,5 @@
+apps:
+  - script: './lib/fetch/fetch.js'
+    name: 'uptime-monitor-fetch'
+  - script: './lib/process/process.js'
+    name: 'uptime-monitor-process'

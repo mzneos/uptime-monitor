@@ -89,7 +89,8 @@ Alert processing is delayed by 2 minutes at the start of the process program, to
 
 ## Dashboard
 If the *fetch* and *process* parts are already started, you can start the dashboard as explained above.
-To change the host, click on the *Host lists* box to focus it, then use the *up* and *down* arrow keys to navigate through the hosts.
+To change the host, click on the *Host lists* box to focus it, then use the *up* and *down* arrow keys to navigate through the hosts.\
+To scroll through the alerts, use the same method on the *Alerts* part of the dashboard. 
 
 # Code style rules
 To guarantee a clean coding convention throughout the files, we used *eslint* with the airbnb coding convention to lint our code.

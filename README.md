@@ -73,6 +73,8 @@ The current setup is the following:
 * Alerts are processed every 5 seconds
 * The dashboard checks every second for new alerts, every 10 seconds for the 10 minutes statistics, and every minute for the hour statistics
 
+The password for the database has been put in the general config file for testing, because a password was mandatory for the postgres connection with NodeJS and the database is only exposed to the localhost in the current config, but this should not stay in a production environment. It should be imported from an untracked secrets.js config file, and the password should not be *password*. 
+
 # Usage
 First, the timescaledb container needs to be started : <code>docker-compose start</code>
 
